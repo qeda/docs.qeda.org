@@ -1,0 +1,6 @@
+[book]
+authors = ["Shamil"]
+language = "en"
+multilingual = false
+src = "src"
+title = "QEDA Documentation"
