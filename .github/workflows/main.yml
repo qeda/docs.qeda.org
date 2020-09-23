@@ -2,14 +2,15 @@ name: Publish
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
