@@ -6,7 +6,7 @@ QEDA is a tool aimed to make electronic devices development easy and fun.
 
 QEDA consists of:
 
-* [QEDA Core](https://github.com/qeda/qeda-rs) — a command-line utility which provides a simple but highly customizable mechanism for creating electronic component libraries for use in EDA software.
+* [QEDA CLI](/cli/) — a command-line utility which provides a simple but highly customizable mechanism for creating electronic component libraries for use in EDA software.
 
   This is the engine of QEDA.
 

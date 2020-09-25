@@ -1,4 +1,4 @@
-# Quick Installation
+# Installation
 
 > **Attention!** Only development builds for Linux and Windows are available at the moment.
 
