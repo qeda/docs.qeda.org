@@ -14,6 +14,8 @@ Documentation for QEDA project.
 
     ```bash
     cargo install mdbook --vers "0.4.3"
+    # or
+    make prepare
     ```
 
 2. Edit source files then save.
@@ -22,12 +24,16 @@ Documentation for QEDA project.
 
     ```bash
     mdbook build
+    # or
+    make
     ```
 
 4. View:
 
     ```bash
     mdbook serve
+    # or
+    make serve
     ```
 
     Then open in browser: http://localhost:3000/
