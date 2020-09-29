@@ -29,6 +29,39 @@
     qeda 0.0.4
     ```
 
+## Installation on MacOS
+
+1. Install prerequisites if needed:
+
+    ```bash
+    brew install wget
+    ```
+
+2. Download the package with the executable binary:
+
+    ```bash
+    wget https://builds.qeda.org/dev/qeda-mac-x86_64-dev.tar.xz
+    ```
+
+3. Unpack the package and copy the `qeda` executable to `/usr/bin` directory:
+
+    ```bash
+    tar -xf qeda-mac-x86_64-dev.tar.xz
+    cd qeda-mac-x86_64-dev
+    sudo cp -fv qeda /usr/bin
+    ```
+4. Check whether you can run QEDA from the command string:
+
+    ```bash
+    qeda --version
+    ```
+
+    You should see something like:
+
+    ```bash
+    qeda 0.0.4
+    ```
+
 ## Installation on Windows
 
 1. Download the package with the executable binary:

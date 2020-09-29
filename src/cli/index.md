@@ -5,4 +5,6 @@ QEDA Command Line Interface (CLI) is a tool to simplify creating electronic comp
 In this chapter, we’ll discuss:
 
 * Installing QEDA CLI
+* Quick starting with a basic usage scenario
 * Available commands
+* Configuration parameters
