@@ -10,7 +10,7 @@ qeda --help
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | <nobr>[add](#add) *COMPONENT*</nobr> | Add a component entry to the configuration file (with preloading from the [remote repository](http://github.com/qeda/lib/) if needed) | <nobr>`qeda add capacitor/c0603`</nobr> |
 | <nobr>[config](#config) *PARAM* \[*VALUE*\]</nobr> | Set/get configuration parameter (see [Configuration Parameters](/cli/configuration.html)) | <nobr>`qeda config generator.type kicad`</nobr> |
-| <nobr>[generate](#generate) *LIB* </nobr> | Generate a library for specified EDA according to the configuration file | <nobr>`qeda generate mylib`</nobr> |
+| <nobr>[generate](#generate) *LIBRARY* </nobr> | Generate a library for specified EDA according to the configuration file | <nobr>`qeda generate mylib`</nobr> |
 | <nobr>[load](#load) *COMPONENT*</nobr> | Load a component description from the [remote repository](http://github.com/qeda/lib/) | <nobr>`qeda load capacitor/c0603`</nobr> |
 
 ## `add`

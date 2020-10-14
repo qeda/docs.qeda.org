@@ -1,8 +1,30 @@
 # Installation
 
-> **Attention!** Only development builds for Linux and Windows are available at the moment.
+> **Attention!** Only development builds for Linux, MacOS, and Windows are available at the moment.
 
 ## Installation on Linux
+
+### Stable: From DEB Repository (Ubuntu/Debian)
+
+Installing on Ubuntu:
+
+```bash
+curl -sL https://pkg.qeda.org/setup | sudo -E bash -
+```
+
+Installing on Debian (as root):
+
+```bash
+curl -sL https://pkg.qeda.org/setup | bash -
+```
+
+Check whether you can run QEDA from the command string:
+
+```bash
+qeda --version
+```
+
+### Development: From Package
 
 1. Download the package with the executable binary:
 
@@ -23,13 +45,33 @@
     qeda --version
     ```
 
-    You should see something like:
+## Installation on MacOS
+
+### Stable: Using Homebrew
+
+*Coming soon.*
+
+<!--
+1. Tap the brew:
 
     ```bash
-    qeda 0.0.4
+    brew tap qeda/stable
     ```
 
-## Installation on MacOS
+2. Install:
+
+    ```bash
+    brew install qeda
+    ```
+
+3. Check whether you can run QEDA from the command string:
+
+    ```bash
+    qeda --version
+    ```
+-->
+
+### Development: From Package
 
 1. Install prerequisites if needed:
 
@@ -56,13 +98,38 @@
     qeda --version
     ```
 
-    You should see something like:
+## Installation on Windows
 
-    ```bash
-    qeda 0.0.4
+### Stable: Using `winget`
+
+1. Download and install `winget` if needed:
+
+    [https://github.com/microsoft/winget-cli/releases](https://github.com/microsoft/winget-cli/releases)
+
+2. *Coming soon.*
+
+<!--
+2. Add the source:
+
+    ```cmd
+    winget source add --name qeda https://pkg.qeda.org/cache
     ```
 
-## Installation on Windows
+3. Update and install:
+
+    ```cmd
+    winget update
+    winget install qeda
+    ```
+
+4. Check whether you can run QEDA from the command string:
+
+    ```cmd
+    qeda.exe --version
+    ```
+-->
+
+### Development: From Package
 
 1. Download the package with the executable binary:
 
@@ -76,10 +143,4 @@
 
     ```cmd
     qeda.exe --version
-    ```
-
-    You should see something like:
-
-    ```cmd
-    qeda 0.0.4
     ```
